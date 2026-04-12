@@ -1,0 +1,106 @@
+/* base padrão */
+.portfolio {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  background: linear-gradient(270deg, #0a0a0a, #1a1a40, #0a0a0a);
+  background-size: 600% 600%;
+  animation: gradientMove 12s ease infinite;
+}
+
+/* animação do fundo */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* glow */
+.portfolio::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: -100px;
+  left: -100px;
+
+  background: radial-gradient(circle, rgba(159,159,255,0.3), transparent);
+  filter: blur(120px);
+}
+
+/* textura de pontilhado */
+.portfolio::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 3px 3px;
+
+  pointer-events: none;
+}
+
+/* conteúdo */
+.portfolio-content {
+  position: relative;
+  z-index: 2;
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 120px 20px 60px 20px;
+
+  text-align: justify;
+  color: #eaeaea;
+}
+
+/* títulos */
+.portfolio-content h1 {
+  font-size: 48px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.portfolio-content h2 {
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* texto */
+.portfolio-content p {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ccc;
+}
+
+/* links */
+.portfolio-content a {
+  color: #9494ce;
+  text-decoration: none;
+}
+
+.portfolio-content a:hover {
+  text-decoration: underline;
+}
+
+/* responsividade */
+@media (max-width: 600px) {
+  .portfolio-content {
+    padding: 100px 16px 40px 16px;
+  }
+
+  .portfolio-content h1 {
+    font-size: 36px;
+  }
+
+  .portfolio-content h2 {
+    font-size: 24px;
+  }
+
+  .portfolio-content p {
+    font-size: 16px;
+  }
+}

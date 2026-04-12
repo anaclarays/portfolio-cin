@@ -1,0 +1,113 @@
+/* base padrão */
+.contato {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  background: linear-gradient(270deg, #0a0a0a, #1a1a40, #0a0a0a);
+  background-size: 600% 600%;
+  animation: gradientMove 12s ease infinite;
+}
+
+/* animação do fundo */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* glow */
+.contato::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: -100px;
+  left: -100px;
+
+  background: radial-gradient(circle, rgba(159,159,255,0.3), transparent);
+  filter: blur(120px);
+}
+
+/* textura de pontilhado */
+.contato::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 3px 3px;
+
+  pointer-events: none;
+}
+
+/* conteúdo da página*/
+.contato-content {
+  position: relative;
+  z-index: 2;
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 120px 20px 60px 20px;
+
+  text-align: justify;
+  color: #eaeaea;
+}
+
+/* título principal */
+.contato-content h1 {
+  font-size: 48px;
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+
+/* texto */
+.contato-info {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+/* subtítulo */
+.contato-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+/* links */
+.contato-links a {
+  color: #9f9fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contato-links a:hover {
+  text-decoration: underline;
+}
+
+/* separação entre links */
+.contato-links {
+  line-height: 2;
+}
+
+/* responsividade */
+@media (max-width: 600px) {
+  .contato-content {
+    padding: 100px 16px 40px 16px;
+  }
+
+  .contato-content h1 {
+    font-size: 36px;
+  }
+
+  .contato-content h2 {
+    font-size: 24px;
+  }
+
+  .contato-info,
+  .contato-links a {
+    font-size: 16px;
+  }
+}
