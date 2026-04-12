@@ -1,16 +1,58 @@
-# React + Vite
+# 🌐 Portfólio Pessoal - Projeto React (CIn/UFPE)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto consiste em um site de portfólio pessoal desenvolvido em **React**, como parte de uma atividade acadêmica. O objetivo é apresentar informações pessoais, trajetória acadêmica e projetos desenvolvidos nas disciplinas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Acesso ao site
 
-## React Compiler
+🔗 Site publicado no CIn:  
+https://cin.ufpe.br/~acsb2/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Repositório no GitHub:  
+https://github.com/SEU_USUARIO/SEU_REPOSITORIO
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Tecnologias utilizadas
+
+- React
+- Vite
+- React Router DOM
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+---
+
+## 📌 Estrutura do site
+
+O site é composto por três páginas principais:
+
+### 🏠 Página Inicial
+Apresenta:
+- Nome completo
+- Breve apresentação pessoal e acadêmica
+- Curso / vínculo com a disciplina
+- Interesses acadêmicos e profissionais
+- Formas de contato
+
+---
+
+### 👤 Página Sobre
+Contém informações mais detalhadas sobre:
+- Trajetória acadêmica
+- Interesses em tecnologia
+- Habilidades técnicas
+- Objetivos profissionais
+
+---
+
+### 💼 Página Portfólio
+Apresenta projetos desenvolvidos nas disciplinas CAD e DS, contendo:
+- Nome do projeto
+- Descrição
+- Objetivo da solução
+- Capturas de tela ou protótipos
+- Disciplina relacionada
+- (Opcional) links para repositório e tecnologias utilizadas

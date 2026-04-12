@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/home"
 import Sobre from "./pages/sobre"
 import Portfolio from "./pages/portfolio"
@@ -8,7 +8,7 @@ import Navbar from "./components/navbar"
 //essa página trata das rotas do site, definindo quais são renderizados para cada caminho
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contato" element={<Contato />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
