@@ -9,9 +9,6 @@ Este projeto consiste em um site de portfólio pessoal desenvolvido em **React**
 🔗 Site publicado no CIn:  
 https://cin.ufpe.br/~acsb2/
 
-🔗 Repositório no GitHub:  
-https://github.com/SEU_USUARIO/SEU_REPOSITORIO
-
 ---
 
 ## 🧩 Tecnologias utilizadas
