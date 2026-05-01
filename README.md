@@ -1,17 +1,17 @@
-# 🌐 Portfólio Pessoal - Projeto React (CIn/UFPE)
+# Portfólio Pessoal - Projeto React (CIn/UFPE)
 
 Este projeto consiste em um site de portfólio pessoal desenvolvido em **React**, como parte de uma atividade acadêmica. O objetivo é apresentar informações pessoais, trajetória acadêmica e projetos desenvolvidos nas disciplinas.
 
 ---
 
-## 🚀 Acesso ao site
+## Acesso ao site
 
 🔗 Site publicado no CIn:  
 https://cin.ufpe.br/~acsb2/
 
 ---
 
-## 🧩 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - React
 - Vite
@@ -22,11 +22,11 @@ https://cin.ufpe.br/~acsb2/
 
 ---
 
-## 📌 Estrutura do site
+## Estrutura do site
 
 O site é composto por três páginas principais:
 
-### 🏠 Página Inicial
+### Página Inicial
 Apresenta:
 - Nome completo
 - Breve apresentação pessoal e acadêmica
@@ -36,7 +36,7 @@ Apresenta:
 
 ---
 
-### 👤 Página Sobre
+### Página Sobre
 Contém informações mais detalhadas sobre:
 - Trajetória acadêmica
 - Interesses em tecnologia
@@ -45,7 +45,7 @@ Contém informações mais detalhadas sobre:
 
 ---
 
-### 💼 Página Portfólio
+### Página Portfólio
 Apresenta projetos desenvolvidos nas disciplinas CAD e DS, contendo:
 - Nome do projeto
 - Descrição
